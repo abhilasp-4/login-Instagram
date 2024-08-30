@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6b73ff 10%, hwb(278 13% 37%) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4c35cf;
+}
+
+.login-container, .signup-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px #0a0101;
+    width: fit-content ;
+
+}
+h2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 8px;
+    text-align: left;
+
+}
+
+label {
+    display: block;
+    margin-bottom: ;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #9ca9b4;
+    transition: all 0.3s ease;
+
+}
+
+input:focus {
+    border-color: #00ff00;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px #4e4953;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: hsl(120, 58%, 30%);
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: bold;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #0a0101;
+}
